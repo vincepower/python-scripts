@@ -1,16 +1,5 @@
 #!/usr/bin/python3
 
-from PIL import Image
-import os
-import sys
-
-
-
-im = Image.open("Ba_b_do8mag_c6_big.png")
-rgb_im = im.convert('RGB')
-rgb_im.save('colors.jpg')
-
-
 import math
 import sys
 
